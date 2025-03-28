@@ -1,0 +1,109 @@
+/* Estilos Generales */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: url(mis-imagenes/pizza.jpg) no-repeat center center/ cover;
+  }
+  
+  /* Contenido */
+  
+  #contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 80vw;
+    max-width: 600px;
+    background-color: white;
+    border: 4px solid black;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    width: 100%;
+    margin: 20px 10px;
+  }
+  
+  ul {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .topping {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    margin: 15px 0;
+  }
+ 
+  
+  #contenedor-botones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    margin: 15px 0;
+  }
+
+  #contenedor-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 3rem;  
+        
+  }
+  input {
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #dde3dc;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+  }
+
+.boton {
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #dde3dc;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px;
+    
+} 
+
+#boton-agregar {
+    background-color: #0b8805;
+    color: white;
+
+}
+#boton-eliminar {
+    background-color: #ff0000;
+    color: white;
+
+}
+:hover.boton {
+    cursor: pointer;
+    color: violet;
+}

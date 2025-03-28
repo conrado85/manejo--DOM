@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Mis Toppings</title>
+  </head>
+
+  <body>
+    <div id="contenedor">
+      <h1 id="titulo"></h1>
+      <ul id="lista-toppings">
+        
+      </ul>
+      <div id="contenedor-botones">
+            <div id="contenedor-input">
+                <label for="input-topping">Topping</label>
+                <input type="text" id="input-topping" placeholder="Topping" autocomplete="off">
+            </div>
+            <div id="contenedor-boton">
+                <button id="boton-agregar" class="boton" onclick="agregarToppings()">Agregar Topping</button>
+                <button id="boton-eliminar" class="boton" onclick="eliminarTopping()">Eliminar Topping</button>
+            </div>
+
+
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
